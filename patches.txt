@@ -1,0 +1,100 @@
+# The engine's D3D9 call sites rewritten to the native Metal renderer (src/render/rn_sites.c): ADDR @call N_name
+7b9c0d @call N_s_gamma   # F_7b9b80 Device9::SetGammaRamp
+7ba41e @call N_s_adapter_identifier   # F_7ba3b0 9::GetAdapterIdentifier
+7ba462 @call N_s_device_caps   # F_7ba3b0 9::GetDeviceCaps
+7ba4d4 @call N_s_check_format   # F_7ba3b0 9::CheckDeviceFormat
+7ba4f8 @call N_s_check_format   # F_7ba3b0 9::CheckDeviceFormat
+7ba577 @call N_s_check_msaa   # F_7ba3b0 9::CheckDeviceMultiSampleType
+7ba59c @call N_s_check_msaa   # F_7ba3b0 9::CheckDeviceMultiSampleType
+7ba5ce @call N_s_check_msaa   # F_7ba3b0 9::CheckDeviceMultiSampleType
+7ba600 @call N_s_check_msaa   # F_7ba3b0 9::CheckDeviceMultiSampleType
+7ba81e @call N_s_check_format   # F_7ba3b0 9::CheckDeviceFormat
+7ba842 @call N_s_check_format   # F_7ba3b0 9::CheckDeviceFormat
+7ba866 @call N_s_check_format   # F_7ba3b0 9::CheckDeviceFormat
+7ba88a @call N_s_check_format   # F_7ba3b0 9::CheckDeviceFormat
+7ba8ab @call N_s_check_format   # F_7ba3b0 9::CheckDeviceFormat
+7ba8c8 @call N_s_check_format   # F_7ba3b0 9::CheckDeviceFormat
+7ba8e9 @call N_s_check_format   # F_7ba3b0 9::CheckDeviceFormat
+7ba906 @call N_s_check_format   # F_7ba3b0 9::CheckDeviceFormat
+7ba927 @call N_s_check_format   # F_7ba3b0 9::CheckDeviceFormat
+7ba944 @call N_s_check_format   # F_7ba3b0 9::CheckDeviceFormat
+7ba98f @call N_s_mode_count   # F_7ba960 9::GetAdapterModeCount
+7ba9e1 @call N_s_enum_mode   # F_7ba960 9::EnumAdapterModes
+7bc5a9 @call N_s_present   # F_7bc4b0 Device9::Present
+7bd664 @call N_s_create_query   # F_7bd640 Device9::CreateQuery
+7bd67f @call N_s_query_issue   # F_7bd640 Query9::Issue
+7bd68f @call N_s_query_data   # F_7bd640 Query9::GetData
+7bd6b1 @call N_s_query_data   # F_7bd640 Query9::GetData
+7bd6c0 @call N_s_release   # F_7bd640 Query9::Release
+7bdb5b @call N_s_perf_set_options   # F_7bdb50 D3DPERF_SetOptions
+7bdb60 @call N_s_perf_zero   # F_7bdb50 D3DPERF_GetStatus
+7bdce8 @call N_s_create_d3d   # F_7bdb50 Direct3DCreate9
+7bdd40 @call N_s_display_mode   # F_7bdb50 9::GetAdapterDisplayMode
+7bdf5d @call N_s_texture_mem   # F_7bdb50 Device9::GetAvailableTextureMem
+7bf438 @call N_s_back_buffer   # F_7bf2f0 Device9::GetBackBuffer
+7bf48c @call N_s_release   # F_7bf2f0 Surface9::Release
+7c1845 @call N_s_clear   # F_7c17d0 Device9::Clear
+7c185c @call N_s_present   # F_7c17d0 Device9::Present
+7c19f1 @call N_s_present   # F_7c17d0 Device9::Present
+892949 @call N_s_create_device   # F_8927b0 9::CreateDevice
+892971 @call N_s_reset   # F_8927b0 Device9::Reset
+892987 @call N_s_test_coop   # F_8927b0 Device9::TestCooperativeLevel
+8a61bf @call N_s_create_decl   # F_8a60e0 Device9::CreateVertexDeclaration
+8a6bfc @call N_s_create_ps   # F_8a6bd0 Device9::CreatePixelShader
+8a792c @call N_s_create_vs   # F_8a7900 Device9::CreateVertexShader
+9de07c @call N_s_create_depth   # F_9ddf90 Device9::CreateDepthStencilSurface
+9de0b8 @call N_s_addref   # F_9de0a0 Surface9::AddRef
+9de21f @call N_s_surface_level   # F_9de120 Texture9::GetSurfaceLevel
+9de633 @call N_s_release   # F_9de620 Surface9::Release
+9de745 @call N_s_release   # F_9de680 Texture9::Release
+9ded82 @call N_s_create_texture   # F_9dea80 Device9::CreateTexture
+9dedde @call N_s_create_texture   # F_9dea80 Device9::CreateTexture
+9dee3b @call N_s_lock   # F_9dea80 Texture9::LockRect
+9dee78 @call N_s_unlock   # F_9dea80 Texture9::UnlockRect
+9deed5 @call N_s_create_cube   # F_9dea80 Device9::CreateCubeTexture
+9def47 @call N_s_lock_cube   # F_9dea80 CubeTexture9::LockRect
+9def8d @call N_s_unlock_cube   # F_9dea80 CubeTexture9::UnlockRect
+9dfcf0 @call N_s_lock   # F_9dfb50 Texture9::LockRect
+9dfd4b @call N_s_lock_cube   # F_9dfb50 CubeTexture9::LockRect
+9e0172 @call N_s_unlock_cube   # F_9e0120 CubeTexture9::UnlockRect
+9e0180 @call N_s_unlock   # F_9e0120 Texture9::UnlockRect
+a0586b @call N_s_create_vb   # F_a05810 Device9::CreateVertexBuffer
+a058b0 @call N_s_buf_lock   # F_a05810 VertexBuffer9::Lock
+a058e0 @call N_s_buf_unlock   # F_a05810 VertexBuffer9::Unlock
+a05960 @call N_s_buf_lock   # F_a05910 VertexBuffer9::Lock
+a059d4 @call N_s_create_vb   # F_a05980 Device9::CreateVertexBuffer
+a059fd @call N_s_release   # F_a059f0 IndexBuffer9::Release
+a05a22 @call N_s_buf_unlock   # F_a05a10 VertexBuffer9::Unlock
+a05bfd @call N_s_create_ib   # F_a05ba0 Device9::CreateIndexBuffer
+a05cf0 @call N_s_buf_lock   # F_a05ca0 IndexBuffer9::Lock
+a05d6a @call N_s_create_ib   # F_a05d10 Device9::CreateIndexBuffer
+a05d92 @call N_s_buf_unlock   # F_a05d80 IndexBuffer9::Unlock
+a05c45 @call N_s_buf_lock   # F_a05ba0 IndexBuffer9::Lock (initial data)
+a05c75 @call N_s_buf_unlock   # F_a05ba0 IndexBuffer9::Unlock
+9df012 @call N_s_create_volume   # F_9dea80 Device9::CreateVolumeTexture
+9df079 @call N_s_lock_box   # F_9dea80 VolumeTexture9::LockBox
+9df100 @call N_s_unlock   # F_9dea80 VolumeTexture9::UnlockBox
+9dfd79 @call N_s_lock_box   # F_9dfb50 VolumeTexture9::LockBox
+9dfd3a @call N_s_lock_cube   # F_9dfb50 CubeTexture9::LockRect (rect)
+9de20b @call N_s_cube_surface   # F_9de120 CubeTexture9::GetCubeMapSurface
+9de2aa @call N_s_create_rt   # F_9de120 Device9::CreateRenderTarget
+9dfbdd @call N_s_surface_desc   # F_9dfb50 Surface9::GetDesc
+9dfc0f @call N_s_create_texture   # F_9dfb50 Device9::CreateTexture (readback copy)
+9dfc28 @call N_s_surface_level   # F_9dfb50 Texture9::GetSurfaceLevel
+9dfc3e @call N_s_rt_data   # F_9dfb50 Device9::GetRenderTargetData
+9dfc6c @call N_s_lock   # F_9dfb50 Texture9::LockRect (readback copy)
+9dfcab @call N_s_unlock   # F_9dfb50 Texture9::UnlockRect (readback copy)
+7c1824 @call N_s_set_rt   # F_7c17d0 Device9::SetRenderTarget
+7c18f9 @call N_s_release   # F_7c17d0 Surface9::Release
+a057c3 @call N_s_release   # F_a057?? VertexBuffer9::Release
+9de5d3 @call N_s_release   # F_9de5?? Surface9::Release
+a05b53 @call N_s_release   # IndexBuffer9::Release (found by the trap)
+7baa0f ;   # F_7ba960: the engine drops display modes whose width isn't a multiple of 8 (1710x1112 ...): keep them
+9e0104 @call N_s_release   # Release (found by the trap)
+b778e8 @call N_s_release   # Release (found by the trap)
+b77917 @call N_s_release   # Release (found by the trap)
+b77947 @call N_s_release   # PixelShader9::Release (shutdown, found by the trap)
+7b972c @call N_s_release   # Device9::Release (shutdown, found by the trap)
+7b9746 @call N_s_release   # Direct3D9::Release (shutdown, found by the trap)
+7b9654 @call N_s_set_depth_ignored   # Device9::SetDepthStencilSurface (shutdown, found by the trap)
+891164 @call N_msgloop_idle   # F_891100 message loop: Steam callbacks, then sleep 1 ms (src/game.c)

@@ -1,0 +1,14 @@
+# Derived from the user's copy of the game: never commit or distribute
+orig.exe
+orig_wrapped.exe
+*.exe
+gen/
+# build output and tools
+build/
+.venv/
+refs/
+*.log
+.DS_Store
+# Mesa source / install from `make kosmickrisp`
+external/
+build-macos-dist/

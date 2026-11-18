@@ -1,0 +1,3 @@
+# Native Metal renderer (src/render): engine functions replaced by host code. RT_NATIVE_OFF=all|addr,... disables.
+7bc8a0 N_replay   # sRender draw packet replay (rn_draw.c)
+b77d30 N_pkg_load   # shader package load: start its pipelines (rn_draw.c)
